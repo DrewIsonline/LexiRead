@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,400&family=Andika:ital,wght@0,400;0,700;1,400&family=Lexend:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-comic-neue: 'Comic Neue', cursive, sans-serif;
+  --font-andika: 'Andika', sans-serif;
+  --font-lexend: 'Lexend', sans-serif;
+}
+
+/* Base custom styles to support dyslexic preference overlays */
+.theme-cream {
+  background-color: #FDFBF7;
+  color: #2D3748;
+}
+
+.theme-warm-peach {
+  background-color: #FAF0E6;
+  color: #3C2F2F;
+}
+
+.theme-pastel-yellow {
+  background-color: #FFFDF0;
+  color: #2B2A22;
+}
+
+.theme-soft-blue {
+  background-color: #F0F4F8;
+  color: #1A2B4C;
+}
+
+.theme-dark-navy {
+  background-color: #0F172A;
+  color: #F1F5F9;
+}
+
+.theme-charcoal {
+  background-color: #1E1E1E;
+  color: #E2E8F0;
+}
+
+/* High Contrast Word/Sentence Highlighting */
+.highlight-sentence {
+  background-color: rgba(253, 224, 71, 0.4);
+  border-bottom: 2px dashed rgba(234, 179, 8, 0.7);
+  border-radius: 2px;
+}
+
+.dark-mode-highlight-sentence {
+  background-color: rgba(161, 98, 7, 0.4);
+  border-bottom: 2px dashed rgba(245, 158, 11, 0.7);
+  border-radius: 2px;
+}
+
+.highlight-word {
+  background-color: rgba(59, 130, 246, 0.35);
+  font-weight: 600;
+  border-radius: 2px;
+  padding: 0 2px;
+}
+
+/* Dyslexia simulated font */
+.font-dyslexic-sim {
+  font-family: 'Comic Neue', 'Andika', sans-serif;
+  letter-spacing: 0.15em;
+  word-spacing: 0.3em;
+  line-height: 2.2;
+}

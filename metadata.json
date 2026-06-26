@@ -1,0 +1,6 @@
+{
+  "name": "LexiRead TTS",
+  "description": "An inclusive Text-to-Speech (TTS) and smart comprehension workspace designed specifically for learners with dyslexia and reading challenges. It features customizable dyslexia-friendly styles, interactive audio narration, AI-powered reading guides, topic summaries, adaptive quizzes, and a multi-sensory workspace for writing, speaking, and scribbling notes.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

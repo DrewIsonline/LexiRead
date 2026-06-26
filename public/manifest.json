@@ -1,0 +1,16 @@
+{
+  "name": "LexiRead Mobile",
+  "short_name": "LexiRead",
+  "description": "LexiRead Mobile Audio Companion",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4285F4",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}
